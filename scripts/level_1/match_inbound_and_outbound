@@ -1,0 +1,1 @@
+rwmatch --relate=1,2 --relate=2,1 --relate=3,4 --relate=4,3 --relate=5,5 --unmatched=b app-in.raw app-out.raw stdout | rwsort --fields=stime --output=temp-match.raw
