@@ -1,0 +1,1 @@
+rwfilter temp-match.raw --next=0.0.0.0 --pass=temp-noresp.raw --fail=stdout | rwfilter stdin --next=255.0.0.0 --pass=temp-noreq.raw --fail=app-match.raw
