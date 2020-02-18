@@ -14,5 +14,5 @@ print(data[dataHeader[0]])
 fig.update_layout(barmode='group')
 # fig.update_layout(color=inBoundHeader[0])
 fig.update_layout(xaxis_type='category',
-                  xaxis_title=str(dataHeader[1] + '\' + dataHeader[0]), yaxis_title=dataHeader[1])
+                  xaxis_title=dataHeader[0] + "\\" + dataHeader[1], yaxis_title=dataHeader[1])
 fig.show()
