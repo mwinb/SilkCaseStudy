@@ -1,0 +1,1 @@
+./calculate_flows_after_scan | sed 's/|/,/g' > flows_after.csv 

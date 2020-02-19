@@ -1,0 +1,1 @@
+cat myhead; rwuniq --fields=bytes,protocol --values=Flows,distinct:sip,distinct:dip --sort dest-after.raw | tail -5
