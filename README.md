@@ -4,7 +4,7 @@ I started this investigation by following installing the silk fedora vm from <ht
 
 In order to execute the graphing scripts python 2 must be installed along with pandas and plotly. These can be installed using ```pip2 install pandas``` and ```pip2 install plotly``` respectively.  
 
-Scripts available at: <https://github.com/mwinb/SilkCaseStudy>
+Scripts available at: <https://github.com/mwinb/SilkCaseStudy/scripts>
 
 ## Level 0: Which TCP Requests are Suspicious. 
 
