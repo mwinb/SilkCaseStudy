@@ -87,7 +87,8 @@ By looking at the inbound versus outbound graph, we can see that ports 21, 21, 5
    and  
       2. The fields file shows us the ip address and the start and end time.   
    ![](./images/sources-fields.png)  
-   Based on these results we can say that the traffic is consistent with scanning, as they are all within a short amount of time and are sending only headers to our TCP and UDP ports.  
+   Based on these results we can say that the traffic is consistent with scanning, as they are all within a short amount of time and are sending only headers to our TCP and UDP ports.    
+   
 ## Level 2B: What Behavior Changes do Destination IPs Show?  
 ### Steps:
    1. Store our source-fields.txt into a shell array:
