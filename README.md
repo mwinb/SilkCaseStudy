@@ -1,10 +1,10 @@
 # Investigating Suspicious TCP Behavior
 
-I started this investigation by following installing the silk fedora vm from https://tools.netsa.cert.org/livedvd.html#. I then downloaded the data set from https://tools.netsa.cert.org/silk/referencedata.html and followed the instructions for unpacking and using rwfilter. Lastly I downloaded the silk data analysis book from https://tools.netsa.cert.org/silk/analysis-handbook.pdf and began on chapter 7.  
+I started this investigation by following installing the silk fedora vm from <https://tools.netsa.cert.org/livedvd.html#>. I then downloaded the data set from <https://tools.netsa.cert.org/silk/referencedata.html> and followed the instructions for unpacking and using rwfilter. Lastly I downloaded the silk data analysis book from <https://tools.netsa.cert.org/silk/analysis-handbook.pdf> and began on chapter 7.  
 
 In order to execute the graphing scripts python 2 must be installed along with pandas and plotly. These can be installed using ```pip2 install pandas``` and ```pip2 install plotly``` respectively.  
 
-Scripts available at: https://github.com/mwinb/SilkCaseStudy
+Scripts available at: <https://github.com/mwinb/SilkCaseStudy>
 
 ## Level 0: Which TCP Requests are Suspicious. 
 
