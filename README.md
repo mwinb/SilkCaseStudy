@@ -65,8 +65,8 @@ By looking at the inbound versus outbound graph, we can see that ports 21, 21, 5
    ![](images/no_request_graph.png)
 
 ## Level 2: What are the Illegitimate Sources and Destinations Doing?
-   ### Level 2A: What are the Illegitimate Source IPs Doing?
-   ### Steps:
+   ### Level 2A: What are the Illegitimate Source IPs Doing?  
+   ### Steps:  
    1. Reusing temp-noresp.raw from the previous section we create a set of source IPs that do not have matching queries. (this is not how it is done in book. the rwbag tool was not functioning properly and had to be changed to run in a legacy form.)
    ```bash
    ./create_unmatched_source_ips
