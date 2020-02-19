@@ -1,0 +1,1 @@
+rwfilter --sensor=S0,S1,S2,S3,S4 --start=2015/06/01 --end=2015/06/30 --type=in,out --sipset=noresp.set --pass =sources.raw
