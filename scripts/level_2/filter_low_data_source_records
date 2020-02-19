@@ -1,0 +1,1 @@
+rwfilter sources.raw --bytes=0 -60 --pass=stdout | rwuniq --fields=protocol,bytes --values=flows,distinct:dip,stime-earliest,etime-latest --sort --output=sources.txt --copy=stdout | rwuniq --fields=sip --values=stime-earliest,etime-latest --no-titles --delim=' ' --output=source-fields.txt
