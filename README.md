@@ -64,9 +64,9 @@ By looking at the inbound versus outbound graph, we can see that ports 21, 21, 5
    ```
    ![](images/no_request_graph.png)
 
-## Level 2: What are the Illegitimate Sources and Destinations Doing?
-   ### Level 2A: What are the Illegitimate Source IPs Doing?  
-   ### Steps:  
+## Level 2: What are the Illegitimate Sources and Destinations Doing?  
+### Level 2A: What are the Illegitimate Source IPs Doing?  
+### Steps:  
    1. Reusing temp-noresp.raw from the previous section we create a set of source IPs that do not have matching queries. (this is not how it is done in book. the rwbag tool was not functioning properly and had to be changed to run in a legacy form.)
    ```bash
    ./create_unmatched_source_ips
@@ -85,10 +85,9 @@ By looking at the inbound versus outbound graph, we can see that ports 21, 21, 5
    and  
       2. The fields file shows us the ip address and the start and end time.   
    ![](./images/sources-fields.png)  
-   Based on these results we can say that the traffic is consistent with scanning, as they are all within a short amount of time and are sending only headers to our TCP and UDP ports. 
-   
-   ## Level 2B: What Behavior Changes do Destination IPs Show?
-   ### Steps:
+   Based on these results we can say that the traffic is consistent with scanning, as they are all within a short amount of time and are sending only headers to our TCP and UDP ports.   
+## Level 2B: What Behavior Changes do Destination IPs Show?  
+### Steps:
    1. Store our source-fields.txt into a shell array:
    ```bash
    srcArray=( $(cat source-fields.txt ) )
