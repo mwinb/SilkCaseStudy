@@ -4,6 +4,8 @@ I started this investigation by following installing the silk fedora vm from htt
 
 In order to execute the graphing scripts python 2 must be installed along with pandas and plotly. These can be installed using ```pip2 install pandas``` and ```pip2 install plotly``` respectively.  
 
+Scripts available at: https://github.com/mwinb/SilkCaseStudy
+
 ## Level 0: Which TCP Requests are Suspicious. 
 
 The purpose of this case study is to identify incoming and outgoing tcp requests and attempt to find  a pattern that will help guide towards recognizing what is suspicious behavior. Follwing the steps below using the commands provided in the book we can take a look at the incoming and outgoing tcp requests, the ports they are on, and the number of requests. I have added a folder to this repo with the commands I used to accomplish and visualize the data. 
